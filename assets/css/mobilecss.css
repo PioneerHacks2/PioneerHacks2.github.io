@@ -1,0 +1,24 @@
+@media only screen and (max-width:420px)  { 
+    #registerButton {
+        height: 10vh;
+        width: 70vw;
+        font-size: 1em;
+    }
+    
+    #titleDis {
+        font-size: 2em !important;    
+    }
+    
+    #title2Dis {
+        font-size: 1.3em !important;
+    }
+    
+    .rw-wrapper > h1 {
+        font-size: 2em !important;
+    }
+    
+    .rw-words > span {
+        font-size: 1.8em !important;
+    }
+    
+}
