@@ -78,7 +78,7 @@
     var complete = function () {
       this.$element
         .removeClass('collapsing')
-        .addClass('collapse in')[dimension]('')
+        .addClass('collapse')[dimension]('')
       this.transitioning = 0
       this.$element
         .trigger('shown.bs.collapse')
@@ -119,8 +119,9 @@
       this.transitioning = 0
       this.$element
         .removeClass('collapsing')
-        .addClass('collapse')
+        .addClass('collapsed')
         .trigger('hidden.bs.collapse')
+        
     }
 
     if (!$.support.transition) return complete.call(this)

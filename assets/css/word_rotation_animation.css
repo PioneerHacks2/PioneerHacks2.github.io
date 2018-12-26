@@ -7,13 +7,13 @@
 .rw-words{
 	display: inline;
     font-size: 3vw;
-    text-indent: 20px;
-}
+    /*text-indent: 20px;
+*/}
 
 
-.rw-words-1 span{
+.rw-words-1 > span{
     padding-top: 10px;
-
+    width: 100%;
     text-align: center;
 	position: absolute;
 	opacity: 0;
