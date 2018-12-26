@@ -18,7 +18,8 @@
     }
     
     .rw-words > span {
-        font-size: 1.8em !important;
+        height: 200%;
+        font-size: 1.7em !important;
     }
     
     

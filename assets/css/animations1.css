@@ -1,4 +1,38 @@
 
+.bounce { 
+    float: right; 
+    text-align: left;
+    width: 25%; 
+    display: inline-block;
+    -webkit-animation: bounce 2s linear 0s 1 forwards; 
+    -ms-animation: bounce 2s linear 0s 1 forwards; 
+    animation: bounce 2s linear 0s 1 forwards; 
+ }
+
+@-ms-keyframes bounce { 
+     0% {-ms-transform: translateX(110%);}
+    20%, 30%, 40%, 100% {-ms-transform: translateX(0);} 
+    25% {-ms-transform: translateX(20px);} 
+     35% {-ms-transform: translateX(10px);} 
+ }
+
+ @-webkit-keyframes bounce { 
+     0% {-webkit-transform: translateX(110%);}
+    20%, 30%, 40%, 100% {-webkit-transform: translateX(0);} 
+    25% {-webkit-transform: translateX(20px);} 
+     35% {-webkit-transform: translateX(10px);} 
+ }
+
+ @keyframes bounce { 
+     0% {transform: translateX(110%);}
+    20%, 30%, 40%, 100% {transform: translateX(0);} 
+    25% {transform: translateX(20px);} 
+     35% {transform: translateX(10px);} 
+ }
+
+
+
+
 .rw-wrapper{
     text-align: center;
 	position: relative;
