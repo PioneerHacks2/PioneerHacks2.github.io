@@ -1,4 +1,32 @@
 
+
+
+@import "https://cdn.rawgit.com/yeun/open-color/master/open-color.css";
+@import url("https://rsms.me/inter/inter-ui.css");
+:root {
+  --easing: cubic-bezier(.5,0,.5,1);
+}
+
+.confetti {
+  padding: 0 0;
+    
+  border-radius: 4px;
+  font-size: 4rem;
+  line-height: 2rem;
+  transition: all 250ms var(--easing);
+  cursor: pointer;
+}
+.confetti:hover {
+    box-shadow: 8px 8px;
+}
+
+
+
+
+
+
+
+
 .bounce { 
     float: right; 
     text-align: left;

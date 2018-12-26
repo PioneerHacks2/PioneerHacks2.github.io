@@ -460,16 +460,19 @@ ul li {
  * 6.7 Section: Schedule
  */
 
-.tier1 {
+.tier1-1 {
     margin: 0 auto;
     padding: 0px 5px;
-    height: 150px;
-    width: 80%;
+    height: 15vw;
+    width: 60vw;
+    max-height: 153px;
+    max-width: 600px;
     display: block;
+    background: url(../images/partner/hackbank.png) no-repeat center center/contain;
+
 }
 
-.tier1-1 {
-    background: url(../images/partner/hackbank.png) no-repeat center center/contain;
+.tier1 {
 }
 
 .partner {
