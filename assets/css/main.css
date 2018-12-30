@@ -1,24 +1,24 @@
 /*
  * 1. Google Font
  */
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,700);
 /*
  * 2.0 Global Style
  */
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
 }
 
 body {
   color: #eae8e8;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
   position: relative;
   -webkit-font-smoothing: antialiased;
-}  
+}
 
 a {
   color: #000;
@@ -89,6 +89,31 @@ ul li {
   outline: none;
 }
 
+.btn-sponsor {
+  border: 0;
+  width: auto;
+  height: auto;
+  font-size: 2vw;
+  display: block;
+  max-width: 200px;
+  max-height: 200px
+  margin: 25px 0px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform;
+          transition-property: transform;
+}
+
 .btn {
   border: 0;
   width: 25vw;
@@ -110,7 +135,38 @@ ul li {
   -webkit-transition-property: -webkit-transform;
           transition-property: transform;
 }
-.btn:hover {
+.btn-sponsor:hover{
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.btn:hover{
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.btn-larger {
+  border: 0;
+  width: 50vw;
+  height: 10vh;
+  font-size: 2vw;
+  display: flex;
+  margin: 25px 0px;
+  text-align: center;
+
+  border-radius: 5px;
+  text-transform: uppercase;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform;
+          transition-property: transform;
+}
+.btn-larger:hover {
   -webkit-transform: scale(0.9);
       -ms-transform: scale(0.9);
           transform: scale(0.9);
@@ -197,11 +253,15 @@ ul li {
  * 3.4 Helper Class: button
  */
 .btn-white {
-  color: #000;
+  color: #373737;
   background-color: #fff;
 }
+.btn-blue {
+  color: #373737;
+  background-color: #8ed9e0;
+}
 .btn-white:hover, .btn-white:focus {
-  color: #000;
+  color: #373737;
   background-color: #fff;
 }
 
@@ -328,7 +388,7 @@ ul li {
   min-height: 100vh;
   position: relative;
   text-align: center;
-  /*background: url(../images/backgrounds/header.jpg) no-repeat center center/cover;*/
+  background: url(../images/backgrounds/header.jpg) no-repeat center center/cover;
   display: table;
 }
 .site-header::before {
@@ -338,7 +398,7 @@ ul li {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgb(135, 135, 135);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .site-header .intro {
   color: #fff;
@@ -465,13 +525,23 @@ ul li {
     padding: 0px 5px;
     height: 15vw;
     width: 60vw;
-    max-height: 153px;
-    max-width: 600px;
+    max-height: 100px;
+    max-width: 400px;
     display: block;
     background: url(../images/partner/hackbank.png) no-repeat center center/contain;
 
 }
 
+.tier1-2 {
+    margin: 0 auto;
+    padding: 0px 5px;
+    height: 15vw;
+    width: 60vw;
+
+    display: block;
+    background: url(../images/sponsors/vmware.png) no-repeat center center/contain;
+
+}
 .tier1 {
 }
 
@@ -490,16 +560,16 @@ ul li {
   opacity: 1;
 }
 .partner .partner-box-1 {
-  background: url(../images/partner/partner-1.png) no-repeat center center/contain;
+  background: url(../images/sponsors/linode.png) no-repeat center center/contain;
 }
 .partner .partner-box-2 {
-  background: url(../images/partner/partner-2.png) no-repeat center center/contain;
+  background: url(../images/sponsors/scrumlink.png) no-repeat center center/contain;
 }
 .partner .partner-box-3 {
-  background: url(../images/partner/partner-3.png) no-repeat center center/contain;
+  background: url(../images/sponsors/thunkable.png) no-repeat center center/contain;
 }
 .partner .partner-box-4 {
-  background: url(../images/partner/partner-4.png) no-repeat center center/contain;
+  background: url(../images/sponsors/ring.png) no-repeat center center/contain;
 }
 .partner .partner-box-5 {
   background: url(../images/partner/partner-5.png) no-repeat center center/contain;

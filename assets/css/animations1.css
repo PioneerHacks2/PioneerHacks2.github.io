@@ -9,16 +9,13 @@
 
 .confetti {
   padding: 0 0;
-    
+
   border-radius: 4px;
   font-size: 4rem;
   line-height: 2rem;
   transition: all 250ms var(--easing);
   cursor: pointer;
 }
-.confetti:hover {
-    box-shadow: 8px 8px;
-}
 
 
 
@@ -26,36 +23,35 @@
 
 
 
-
-.bounce { 
-    float: right; 
+.bounce {
+    float: right;
     text-align: left;
-    width: 25%; 
+    width: 25%;
     display: inline-block;
-    -webkit-animation: bounce 2s linear 0s 1 forwards; 
-    -ms-animation: bounce 2s linear 0s 1 forwards; 
-    animation: bounce 2s linear 0s 1 forwards; 
+    -webkit-animation: bounce 2s linear 0s 1 forwards;
+    -ms-animation: bounce 2s linear 0s 1 forwards;
+    animation: bounce 2s linear 0s 1 forwards;
  }
 
-@-ms-keyframes bounce { 
+@-ms-keyframes bounce {
      0% {-ms-transform: translateX(110%);}
-    20%, 30%, 40%, 100% {-ms-transform: translateX(0);} 
-    25% {-ms-transform: translateX(20px);} 
-     35% {-ms-transform: translateX(10px);} 
+    20%, 30%, 40%, 100% {-ms-transform: translateX(0);}
+    25% {-ms-transform: translateX(20px);}
+     35% {-ms-transform: translateX(10px);}
  }
 
- @-webkit-keyframes bounce { 
+ @-webkit-keyframes bounce {
      0% {-webkit-transform: translateX(110%);}
-    20%, 30%, 40%, 100% {-webkit-transform: translateX(0);} 
-    25% {-webkit-transform: translateX(20px);} 
-     35% {-webkit-transform: translateX(10px);} 
+    20%, 30%, 40%, 100% {-webkit-transform: translateX(0);}
+    25% {-webkit-transform: translateX(20px);}
+     35% {-webkit-transform: translateX(10px);}
  }
 
- @keyframes bounce { 
+ @keyframes bounce {
      0% {transform: translateX(110%);}
-    20%, 30%, 40%, 100% {transform: translateX(0);} 
-    25% {transform: translateX(20px);} 
-     35% {transform: translateX(10px);} 
+    20%, 30%, 40%, 100% {transform: translateX(0);}
+    25% {transform: translateX(20px);}
+     35% {transform: translateX(10px);}
  }
 
 
@@ -87,20 +83,20 @@
 
 
 
-.rw-words-1 span:nth-child(2) { 
-    -webkit-animation-delay: 3.5s; 
-	-ms-animation-delay: 3.5s; 
-	animation-delay: 3.5s; 
+.rw-words-1 span:nth-child(2) {
+    -webkit-animation-delay: 3.5s;
+	-ms-animation-delay: 3.5s;
+	animation-delay: 3.5s;
 }
-.rw-words-1 span:nth-child(3) { 
-    -webkit-animation-delay: 7s; 
-	-ms-animation-delay: 7s; 
-	animation-delay: 7s; 
+.rw-words-1 span:nth-child(3) {
+    -webkit-animation-delay: 7s;
+	-ms-animation-delay: 7s;
+	animation-delay: 7s;
 }
-.rw-words-1 span:nth-child(4) { 
-    -webkit-animation-delay: 10.5s; 
-	-ms-animation-delay: 10.5s; 
-	animation-delay: 10.5s; 
+.rw-words-1 span:nth-child(4) {
+    -webkit-animation-delay: 10.5s;
+	-ms-animation-delay: 10.5s;
+	animation-delay: 10.5s;
 }
 
 
