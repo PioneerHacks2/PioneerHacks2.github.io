@@ -535,7 +535,7 @@ ul li {
 .tier1-2 {
     margin: 0 auto;
     padding: 0px 5px;
-    height: 15vw;
+    height: 30vw;
     width: 60vw;
 
     display: block;
@@ -566,37 +566,37 @@ ul li {
   background: url(../images/sponsors/scrumlink.png) no-repeat center center/contain;
 }
 .partner .partner-box-3 {
-  background: url(../images/sponsors/thunkable.png) no-repeat center center/contain;
+  background: url(../images/sponsors/estimote.png) no-repeat center center/contain;
 }
 .partner .partner-box-4 {
   background: url(../images/sponsors/ring.png) no-repeat center center/contain;
 }
 .partner .partner-box-5 {
-  background: url(../images/partner/partner-5.png) no-repeat center center/contain;
+  background: url(../images/sponsors/snap.png) no-repeat center center/contain;
 }
 .partner .partner-box-6 {
-  background: url(../images/partner/partner-6.png) no-repeat center center/contain;
+  background: url(../images/sponsors/bear.svg) no-repeat center center/contain;
 }
 .partner .partner-box-7 {
-  background: url(../images/partner/partner-7.png) no-repeat center center/contain;
+  background: url(../images/sponsors/sketch.png) no-repeat center center/contain;
 }
 .partner .partner-box-8 {
-  background: url(../images/partner/partner-8.png) no-repeat center center/contain;
+  background: url(../images/sponsors/leangap.png) no-repeat center center/contain;
 }
 .partner .partner-box-9 {
-  background: url(../images/partner/partner-9.png) no-repeat center center/contain;
+  background: url(../images/sponsors/aops.png) no-repeat center center/contain;
 }
 .partner .partner-box-10 {
-  background: url(../images/partner/partner-10.png) no-repeat center center/contain;
+  background: url(../images/sponsors/bugsee.png) no-repeat center center/contain;
 }
 .partner .partner-box-11 {
-  background: url(../images/partner/partner-11.png) no-repeat center center/contain;
+  background: url(../images/sponsors/thunkable.png) no-repeat center center/contain;
 }
 .partner .partner-box-12 {
-  background: url(../images/partner/partner-12.png) no-repeat center center/contain;
+  background: url(../images/sponsors/jetbrains.png) no-repeat center center/contain;
 }
 .partner .partner-box-13 {
-  background: url(../images/partner/partner-13.png) no-repeat center center/contain;
+  background: url(../images/sponsors/hasura.png) no-repeat center center/contain;
 }
 .partner .partner-box-14 {
   background: url(../images/partner/partner-14.png) no-repeat center center/contain;
