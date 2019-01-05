@@ -535,12 +535,18 @@ ul li {
 .tier1-2 {
     margin: 0 auto;
     padding: 0px 5px;
-    height: 30vw;
-    width: 60vw;
+    height: 20vw;
+    width: 30vw;
 
     display: block;
     background: url(../images/sponsors/vmware.png) no-repeat center center/contain;
 
+}
+
+.tier1-2:hover{
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
 }
 .tier1 {
 }
@@ -635,6 +641,7 @@ ul li {
 .partner .partner-box-25 {
   background: url(../images/partner/partner-25.png) no-repeat center center/contain;
 }
+
 /*
  * 6.8 Section: FAQ
  */
