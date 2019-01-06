@@ -258,7 +258,7 @@ ul li {
 }
 .btn-blue {
   color: #373737;
-  background-color: #8ed9e0;
+  background-color: #c4e4e7;
 }
 .btn-white:hover, .btn-white:focus {
   color: #373737;
@@ -324,7 +324,7 @@ ul li {
   margin: 0;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #8ed9e0;
+  background-color: #c4e4e7;
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
 }
@@ -356,7 +356,7 @@ ul li {
 }
 
 .navbar-solid {
-  background-color: #8ed9e0 !important;
+  background-color: #c4e4e7 !important;
   padding: 0 !important;
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
@@ -388,7 +388,7 @@ ul li {
   min-height: 100vh;
   position: relative;
   text-align: center;
-  background: url(../images/backgrounds/header.jpg) no-repeat center center/cover;
+  background: url(../images/backgrounds/bg-stripe.png) no-repeat center center/cover;
   display: table;
 }
 .site-header::before {
@@ -398,7 +398,7 @@ ul li {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .site-header .intro {
   color: #fff;
@@ -646,6 +646,22 @@ ul li {
  * 6.8 Section: FAQ
  */
 
+.faq-text {
+  position:relative;
+  width: 80%;
+  padding-top: 4vh;
+  text-align: center;
+  height: auto;
+  margin: 0 auto;
+  color: black;
+}
+
+@media (max-width: 1200px) {
+  .faq-text > p {
+    font-size: 1.4vw;
+  }
+}
+
 .collapsible {
   background-color: #DAAD70;
   color: white;
@@ -743,7 +759,7 @@ ul li {
  * 7.0 Site-footer
  */
 .site-footer {
-  background-color: #8ed9e0;
+  background-color: #c4e4e7;
   color: #fff;
   text-align: center;
   padding: 30px 0;
