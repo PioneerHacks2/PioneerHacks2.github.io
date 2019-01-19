@@ -19,7 +19,7 @@
     <session id="-389060759">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -56,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="247" column="77" selection-start-line="247" selection-start-column="77" selection-end-line="247" selection-end-column="77" />
+            <state relative-caret-position="425">
+              <caret line="250" column="14" lean-forward="true" selection-start-line="250" selection-start-column="14" selection-end-line="250" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#a#0;n#center#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -208,12 +208,12 @@
       <workItem from="1545196353991" duration="15000" />
       <workItem from="1546752732862" duration="7307000" />
       <workItem from="1546760392607" duration="430000" />
-      <workItem from="1547787969093" duration="427000" />
+      <workItem from="1547787969093" duration="472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8179000" />
+    <option name="totallyTimeSpent" value="8224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -268,8 +268,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="247" column="77" selection-start-line="247" selection-start-column="77" selection-end-line="247" selection-end-column="77" />
+        <state relative-caret-position="425">
+          <caret line="250" column="14" lean-forward="true" selection-start-line="250" selection-start-column="14" selection-end-line="250" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#div#0;n#a#0;n#center#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
