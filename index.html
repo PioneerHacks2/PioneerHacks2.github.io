@@ -7,15 +7,16 @@
   <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="assets/images/favicon.ico">
 
-  <!-- css -->
+  <!-- css
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+-->
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/mobilecss.css">
   <link rel="stylesheet" href="assets/css/animations1.css">
     <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="prefetch" href="assets/images/logo/face-01.png" />
 
 </head>
 <!--
@@ -67,7 +68,15 @@ animation on scroll: https://codepen.io/simoncodrington/pen/Mwgqqd
 </nav>
 
 <header id="site-header" class="site-header valign-center">
-  <div class="intro container">
+
+  <img id="logo-anim" class="animated bounceInUp slow delay-1s" style="
+  width: 35vw; height: auto; 
+   margin: calc(45vh / 2) 0; left: 5%; position: absolute;"
+   src="assets/images/logo-anim.png">
+
+
+
+  <div class="intro container" id="home-page" style="width: 70%; float: right; padding-top: 40vh">
 
     <h1 style="font-size: 6vw;" id="titleDis">PioneerHacks
       <div style="display: inline">II</div></h1>
