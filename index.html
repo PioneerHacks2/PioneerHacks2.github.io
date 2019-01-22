@@ -67,10 +67,10 @@ animation on scroll: https://codepen.io/simoncodrington/pen/Mwgqqd
 </div>
 </nav>
 
-<header id="site-header" class="site-header valign-center">
+<header id="site-header" class="site-header valign-center" style="overflow: hidden;">
 
   <img id="logo-anim" class="animated bounceInUp slow delay-1s" style="
-  width: 35vw; height: auto; 
+  width: 35vw; height: auto;
    margin: calc(45vh / 2) 0; left: 5%; position: absolute;"
    src="assets/images/logo-anim.png">
 
@@ -80,7 +80,8 @@ animation on scroll: https://codepen.io/simoncodrington/pen/Mwgqqd
 
     <h1 style="font-size: 6vw;" id="titleDis">PioneerHacks
       <div style="display: inline">II</div></h1>
-      <h2 id="title2Dis">March 2-3, 2019<br></h2>
+      <h1 style="font-size: 3vw; line-height: 150%;" id="title2Dis">March 2-3, 2019<br>
+        @ Polycom</h1>
       <center>
         <a class="btn btn-white"id="registerButton" href="https://tinovation.typeform.com/to/Ata37Y" target="_blank">
           <div style="margin: auto;">
@@ -94,7 +95,7 @@ animation on scroll: https://codepen.io/simoncodrington/pen/Mwgqqd
   </header>
 
 
-  <section id="about" class="section about" style="background-color: #c4e4e7;height: 30vh; padding: 30px 0;">
+  <div id="about" class="section about" style="background-color: #c4e4e7; padding: 30px 0;">
     <div class="container" style="text-align: center; color: #373737;">
 
       <section class="rw-wrapper">
@@ -109,9 +110,59 @@ animation on scroll: https://codepen.io/simoncodrington/pen/Mwgqqd
         </h1>
 
       </section>
+      <section class="container" style="text-align: center; background-color: #a5c0dd; color: #373737; margin-top: 20vh; border-radius: 10px; padding-bottom: 10px;">
+        <h1 style="">
+          <b>Schedule</b>
+        </h1>
+        <div id="satS" style="width: 45%; float: left;
+         text-align: left; padding: 20px;">
+          <h3><b>Saturday</b></h3>
+          <h4 style="line-height: 200%;">
+            <br><b>10:00 AM:</b> Check In
+            <br><b>10:30 AM:</b> Opening Ceremony
+            <br><b>11:15 AM:</b> Hacking Begins/Team Creation
+            <br><b>12:00 PM:</b> Lunch
+            <br><b>1:00 PM:</b> Introduction to Programming Workshop
+            <br><b>3:00 PM:</b> Cloud Computing Workshop
+            <br><b>4:00 PM:</b> App Workshop
+            <br><b>5:00 PM:</b> Cup Stacking Competition
+            <br><b>6:00 PM:</b> Machine Learning Workshop
+            <br><b>7:00 PM:</b> Dinner
+            <br><b>9:00 PM:</b> Raffle</h4>
+        </div>
+        <div id="sunS" style="width: 45%; height: 100%; float: right; padding: 20px;
+         text-align: left;">
+          <h3><b>Sunday</b></h3>
+          <h4 style="line-height: 200%;">
+            <br><b>12:00 AM:</b> Midnight Snack
+            <br><b>2:00 AM:</b> Surprise Competition
+            <br><b>7:00 AM:</b> Breakfast
+            <br><b>8:00 AM:</b> Submissions Due
+            <br><b>9:00 AM:</b> Top Pick Presentations
+            <br><b>9:30 AM:</b> Closing Ceremony and Winners Announced
+            </h4>
+        </div>
+      </section>
 
+      <!--
+      <section class="container">
+        <div class="mapouter" style="margin: 0 auto;">
+          <div class="gmap_canvas">
+            <iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=6001%20America%20Center%20Dr.%20San%20Jose%2C%20CA%2095002&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+
+            </iframe>
+          </div>
+
+        </div>
+
+      </section>
+      -->
 
     </div>
+
+
+  </div>
+
   </section>
   <!--
   <section id="facts" class="section bg-image-1 facts text-center">
