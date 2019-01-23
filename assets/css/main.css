@@ -786,11 +786,29 @@ ul li {
   text-align:center;
   height:50%;
   width:50%;
-  margin-top: 50vh;
+    margin: 0 !important;
+    padding: 0 !important;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    position: absolute;
 }
 .gmap_canvas {
   overflow:hidden;
-  background:none!important;
+  background:none !important;
   height:100%;
   width:100%;
+}
+
+#locT {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    top: 13%;
+    z-index: 3;
+    text-align: center;
 }
