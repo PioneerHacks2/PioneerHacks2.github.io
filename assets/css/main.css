@@ -565,81 +565,145 @@ ul li {
 .partner .partner-box:hover {
   opacity: 1;
 }
-.partner .partner-box-1 {
+ .partner-box-1 {
   background: url(../images/sponsors/linode.png) no-repeat center center/contain;
 }
-.partner .partner-box-2 {
+ .partner-box-2 {
   background: url(../images/sponsors/scrumlink.png) no-repeat center center/contain;
 }
-.partner .partner-box-3 {
+ .partner-box-3 {
   background: url(../images/sponsors/estimote.png) no-repeat center center/contain;
 }
-.partner .partner-box-4 {
+ .partner-box-4 {
   background: url(../images/sponsors/ring.png) no-repeat center center/contain;
 }
-.partner .partner-box-5 {
+ .partner-box-5 {
   background: url(../images/sponsors/snap.png) no-repeat center center/contain;
 }
-.partner .partner-box-6 {
+ .partner-box-6 {
   background: url(../images/sponsors/bear.svg) no-repeat center center/contain;
 }
-.partner .partner-box-7 {
+ .partner-box-7 {
   background: url(../images/sponsors/sketch.png) no-repeat center center/contain;
 }
-.partner .partner-box-8 {
+ .partner-box-8 {
   background: url(../images/sponsors/leangap.png) no-repeat center center/contain;
 }
-.partner .partner-box-9 {
+ .partner-box-9 {
   background: url(../images/sponsors/aops.png) no-repeat center center/contain;
 }
-.partner .partner-box-10 {
+ .partner-box-10 {
   background: url(../images/sponsors/bugsee.png) no-repeat center center/contain;
 }
-.partner .partner-box-11 {
+ .partner-box-11 {
   background: url(../images/sponsors/thunkable.png) no-repeat center center/contain;
 }
-.partner .partner-box-12 {
+ .partner-box-12 {
   background: url(../images/sponsors/jetbrains.png) no-repeat center center/contain;
 }
-.partner .partner-box-13 {
+ .partner-box-13 {
   background: url(../images/sponsors/hasura.png) no-repeat center center/contain;
 }
-.partner .partner-box-14 {
+ .partner-box-14 {
   background: url(../images/partner/partner-14.png) no-repeat center center/contain;
 }
-.partner .partner-box-15 {
+ .partner-box-15 {
   background: url(../images/partner/partner-15.png) no-repeat center center/contain;
 }
-.partner .partner-box-16 {
+ .partner-box-16 {
   background: url(../images/partner/partner-16.png) no-repeat center center/contain;
 }
-
-.partner .partner-box-17 {
+.partner-box-17 {
   background: url(../images/partner/partner-17.png) no-repeat center center/contain;
 }
-.partner .partner-box-18 {
+ .partner-box-18 {
   background: url(../images/partner/partner-18.png) no-repeat center center/contain;
 }
-.partner .partner-box-19 {
+ .partner-box-19 {
   background: url(../images/partner/partner-19.png) no-repeat center center/contain;
 }
-.partner .partner-box-20 {
+ .partner-box-20 {
   background: url(../images/partner/partner-20.png) no-repeat center center/contain;
 }
-.partner .partner-box-21 {
+ .partner-box-21 {
   background: url(../images/partner/partner-21.png) no-repeat center center/contain;
 }
-.partner .partner-box-22 {
+ .partner-box-22 {
   background: url(../images/partner/partner-22.png) no-repeat center center/contain;
 }
-.partner .partner-box-23 {
+ .partner-box-23 {
   background: url(../images/partner/partner-23.png) no-repeat center center/contain;
 }
-.partner .partner-box-24 {
+ .partner-box-24 {
   background: url(../images/partner/partner-24.png) no-repeat center center/contain;
 }
-.partner .partner-box-25 {
+ .partner-box-25 {
   background: url(../images/partner/partner-25.png) no-repeat center center/contain;
+}
+
+.partner-ai-ac {
+    background: url(../images/partner/ai-academy.jpg) no-repeat center center/contain;
+}
+
+.partner-hackerearth {
+    background: url(../images/partner/hackerearth.png) no-repeat center center/contain;
+}
+
+.partner-gogo {
+    background: url(../images/partner/gogo.png) no-repeat center center/contain;
+}
+
+.partner-ca-kitchen {
+    background: url(../images/partner/ca-kitchen.png) no-repeat center center/contain;
+}
+
+.partner-steep {
+    background: url(../images/partner/steep.jpg) no-repeat center center/contain;
+}
+
+.partner-pistachios {
+    background: url(../images/partner/pistachios.png) no-repeat center center/contain;
+}
+
+
+.partner-wolfram {
+    background: url(../images/partner/wolfram.png) no-repeat center center/contain;
+}
+
+.partner-hasura {
+    background: url(../images/partner/hasura.png) no-repeat center center/contain;
+}
+
+.partner-temboo {
+    background: url(../images/partner/temboo.png) no-repeat center center/contain;
+}
+
+.partner-bugsee {
+    background: url(../images/partner/bugsee.png) no-repeat center center/contain;
+}
+
+.partner-aops {
+    background: url(../images/partner/aops.png) no-repeat center center/contain;
+}
+
+.partner-thunkable {
+    background: url(../images/partner/thunkable.jpg) no-repeat center center/contain;
+}
+
+.partner-quizlet {
+    background: url(../images/partner/quizlet.png) no-repeat center center/contain;
+}
+
+.partner-desmos {
+    background: url(../images/partner/desmos.png) no-repeat center center/contain;
+}
+
+.partner-codehs {
+    background: url(../images/partner/codehs.png) no-repeat center center/contain;
+}
+
+.partner-jetbrains {
+    background: url(../images/partner/jetbrains.png) no-repeat center center/contain;
 }
 
 /*

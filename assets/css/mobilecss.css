@@ -57,6 +57,10 @@
         left: calc(50% - 65vw / 2) !important;
         margin: 0 auto !important;
     }
+    
+    #sponsorusDiv {
+        font-size: 3vw;
+    }
 
     #registerButton {
         height: 10vh;
