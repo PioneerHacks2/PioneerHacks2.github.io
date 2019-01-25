@@ -710,6 +710,10 @@ ul li {
     background: url(../images/partner/wesbos.PNG) no-repeat center center/contain;
 }
 
+.partner-triv {
+    background: url(../images/partner/triv.png) no-repeat center center/contain;
+}
+
 /*
  * 6.8 Section: FAQ
  */
