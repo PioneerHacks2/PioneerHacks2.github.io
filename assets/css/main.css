@@ -664,8 +664,9 @@ ul li {
 .partner-pistachios {
     background: url(../images/partner/pistachios.png) no-repeat center center/contain;
 }
-
-
+.partner-terra {
+    background: url(../images/partner/terra.png) no-repeat center center/contain;
+}
 .partner-wolfram {
     background: url(../images/partner/wolfram.png) no-repeat center center/contain;
 }
