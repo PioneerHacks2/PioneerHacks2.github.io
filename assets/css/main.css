@@ -644,7 +644,9 @@ ul li {
 .partner-ai-ac {
     background: url(../images/partner/ai-academy.png) no-repeat center center/contain;
 }
-
+.partner-sticker-mule {
+    background: url(../images/partner/sticker-mule.png) no-repeat center center/contain;
+}
 .partner-hackerearth {
     background: url(../images/partner/hackerearth.png) no-repeat center center/contain;
 }
