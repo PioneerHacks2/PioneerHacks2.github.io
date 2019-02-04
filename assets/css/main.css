@@ -644,7 +644,9 @@ ul li {
 .partner-ai-ac {
     background: url(../images/partner/ai-academy.png) no-repeat center center/contain;
 }
-
+.partner-sticker-mule {
+    background: url(../images/partner/sticker-mule.png) no-repeat center center/contain;
+}
 .partner-hackerearth {
     background: url(../images/partner/hackerearth.png) no-repeat center center/contain;
 }
@@ -664,8 +666,9 @@ ul li {
 .partner-pistachios {
     background: url(../images/partner/pistachios.png) no-repeat center center/contain;
 }
-
-
+.partner-terra {
+    background: url(../images/partner/terra.png) no-repeat center center/contain;
+}
 .partner-wolfram {
     background: url(../images/partner/wolfram.png) no-repeat center center/contain;
 }
@@ -883,4 +886,24 @@ ul li {
     top: 13%;
     z-index: 3;
     text-align: center;
+}
+
+
+.teamPic {
+  transition: all 0.2s ease-in-out;
+  width: 80%;
+  height: auto;
+  max-width: 325px;
+}
+
+.teamPic:hover {
+  transform: scale(1.1);
+}
+
+.teamD {
+  padding: 15px;
+}
+
+.teamD h2{
+  padding-top:10px;
 }
