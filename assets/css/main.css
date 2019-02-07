@@ -542,8 +542,24 @@ ul li {
     background: url(../images/sponsors/vmware.png) no-repeat center center/contain;
 
 }
+.i-am-centered { margin: auto;}
 
+.tier1-3 {
+    margin: 0 auto;
+    padding: 0px 5px;
+    height: 20vw;
+    width: 20vw;
+
+    display: block;
+    background: url(../images/partner/intel.png) no-repeat center center/contain;
+
+}
 .tier1-2:hover{
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.tier1-3:hover{
   -webkit-transform: scale(0.9);
       -ms-transform: scale(0.9);
           transform: scale(0.9);
