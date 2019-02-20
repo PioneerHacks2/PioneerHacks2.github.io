@@ -683,7 +683,9 @@ ul li {
 .partner-steep {
     background: url(../images/partner/steep.jpg) no-repeat center center/contain;
 }
-
+.partner-tech {
+    background: url(../images/partner/partner-7.png) no-repeat center center/contain;
+}
 .partner-pistachios {
     background: url(../images/partner/pistachios.png) no-repeat center center/contain;
 }
