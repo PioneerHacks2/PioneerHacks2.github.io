@@ -535,8 +535,8 @@ ul li {
 .tier1-2 {
     margin: 0 auto;
     padding: 0px 5px;
-    height: 20vw;
-    width: 30vw;
+    height: 15vw;
+    width: 22.5vw;
 
     display: block;
     background: url(../images/sponsors/vmware.png) no-repeat center center/contain;
@@ -547,8 +547,8 @@ ul li {
 .tier1-3 {
     margin: 0 auto;
     padding: 0px 5px;
-    height: 20vw;
-    width: 20vw;
+    height: 15vw;
+    width: 15vw;
 
     display: block;
     background: url(../images/partner/intel.png) no-repeat center center/contain;
@@ -670,7 +670,12 @@ ul li {
 .partner-gogo {
     background: url(../images/partner/gogo.png) no-repeat center center/contain;
 }
-
+.partner-jobvite {
+    background: url(../images/partner/Jobvite.png) no-repeat center center/contain;
+}
+.partner-donorperfect {
+    background: url(../images/partner/donorperfect.png) no-repeat center center/contain;
+}
 .partner-ca-kitchen {
     background: url(../images/partner/ca-pizza.jpg) no-repeat center center/contain;
 }
@@ -729,10 +734,15 @@ ul li {
     background: url(../images/partner/wesbos.PNG) no-repeat center center/contain;
 }
 
-.partner-triv {
-    background: url(../images/partner/triv.png) no-repeat center center/contain;
+.partner-plantronics {
+    background: url(../images/partner/plantronics.png) no-repeat center center/contain;
 }
-
+.partner-adobe {
+    background: url(../images/partner/adobe.png) no-repeat center center/contain;
+}
+.partner-clf {
+    background: url(../images/partner/clf.png) no-repeat center center/contain;
+}
 /*
  * 6.8 Section: FAQ
  */
