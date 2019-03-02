@@ -51,13 +51,13 @@
             <h1 style="font-size: 2rem;" class="text">Schedule</h1><br><br>
             <div id="scheduleNow" style="position:relative; line-height:65%; margin-bottom:100px;">
                 <span style="font-size: 1.3rem; display:block;">Currently...</span>
-                <span id="curSchedule">Hacking</span>
+                <span id="curSchedule"></span>
             </div>
 
             <div id="timeDisplay" style="line-height:80%;"></div>
             <br>
             <div id="scheduleNext">
-                Lunch @ 12:00
+                
             </div>
             <br>
             <a href="timer.html" id="link">Timer</a>
@@ -83,43 +83,35 @@
 
         function update() {
             var time = getTime();
+            time.hr -=12;
             document.getElementById("timeDisplay").innerHTML = "<span style='font-size:1rem'>Time&ensp;</span><br>" + time.hr + " : "
                 + ((time.min<10)?"0"+time.min:time.min) + " : " + ((time.sec<10)?"0"+time.sec:time.sec) + "";
 
-            if (time.hr == 12) {
-                document.getElementById("curSchedule").innerHTML = "Lunch";
-                document.getElementById("scheduleNow").style.fontSize = "9vw";
-                document.getElementById("scheduleNext").innerHTML = "Machine Learning Workshop @ 1:00"
-            } else if (time.hr == 1) {
-                document.getElementById("curSchedule").innerHTML = "Machine Learning Workshop";
-                document.getElementById("scheduleNow").style.fontSize = "5vw";
-                document.getElementById("scheduleNext").innerHTML =
-                    "HackerEarth Speaker @ 2:00";
-            } else if (time.hr == 2) {
-                document.getElementById("curSchedule").innerHTML = "HackerEarth Speaker";
-                document.getElementById("scheduleNow").style.fontSize = "6vw";
-                document.getElementById("scheduleNext").innerHTML =
-                    "Cup Stacking @ 5:00";
-            } else if (time.hr == 5) {
-                document.getElementById("curSchedule").innerHTML = "Cup Stacking";
-                document.getElementById("scheduleNow").style.fontSize = "7vw";
-                document.getElementById("scheduleNext").innerHTML =
-                    "Raffle @ 6:30";
-            } else if (time.hr == 6 && time.min == 30) {
-                document.getElementById("curSchedule").innerHTML = "Raffle";
-                document.getElementById("scheduleNow").style.fontSize = "9vw";
-                document.getElementById("scheduleNext").innerHTML =
-                    "Dinner & Submission @ 7:00";
-            } else if (time.hr == 7) {
-                document.getElementById("curSchedule").innerHTML = "Dinner and Submission";
-                document.getElementById("scheduleNow").style.fontSize = "6vw";
-                document.getElementById("scheduleNext").innerHTML =
-                    "Judging Begins @ 7:45";
-            } else if (time.hr == 7 && time.min == 45) {
+            if (time.hr >= 7 && time.min >= 45) {
                 document.getElementById("curSchedule").innerHTML = "Judging";
                 document.getElementById("scheduleNow").style.fontSize = "9vw";
                 document.getElementById("scheduleNext").innerHTML =
                     "Closing Ceremony @ 10:00";
+            } else if (time.hr >= 7 && time.min < 45) {
+                document.getElementById("curSchedule").innerHTML = "Dinner and Submission";
+                document.getElementById("scheduleNow").style.fontSize = "6vw";
+                document.getElementById("scheduleNext").innerHTML =
+                    "Judging Begins @ 7:45";
+            } else if (time.hr >= 6 && time.min >= 30) {
+                document.getElementById("curSchedule").innerHTML = "Raffle";
+                document.getElementById("scheduleNow").style.fontSize = "9vw";
+                document.getElementById("scheduleNext").innerHTML =
+                    "Dinner & Submission @ 7:00";
+            } else if (time.hr >= 5) {
+                document.getElementById("curSchedule").innerHTML = "Cup Stacking";
+                document.getElementById("scheduleNow").style.fontSize = "7vw";
+                document.getElementById("scheduleNext").innerHTML =
+                    "Raffle @ 6:30";
+            } else if (time.hr >= 2) {
+                document.getElementById("curSchedule").innerHTML = "HackerEarth Speaker";
+                document.getElementById("scheduleNow").style.fontSize = "6vw";
+                document.getElementById("scheduleNext").innerHTML =
+                    "Cup Stacking @ 5:00";
             }
         }
 
