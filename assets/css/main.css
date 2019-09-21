@@ -197,6 +197,11 @@ ul li {
           align-items: center;
 }
 
+.row{
+  margin-right: unset;
+  margin-left: unset;
+}
+
 .section {
   padding: 70px 0;
 }
