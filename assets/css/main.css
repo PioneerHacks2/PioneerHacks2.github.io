@@ -503,6 +503,11 @@ ul li {
 /*
  * 6.6 Section: Schedule
  */
+
+#about > div > section:nth-child(2) > h1{
+  font-size: 60px;
+}
+
 .schedule-box {
   position: relative;
   background-color: #000;
@@ -520,6 +525,7 @@ ul li {
   left: 5px;
   border: 1px solid #fff;
 }
+
 
 /*
  * 6.7 Section: Schedule
