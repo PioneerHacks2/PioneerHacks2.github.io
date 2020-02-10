@@ -12,10 +12,13 @@ for (var i = 0; i < coll.length; i++) {
     });
 }
 
+let regCLicked = false;
+
 $(document).ready(function () {
     $("#registerButton").click(function () {
         $('#faq7').removeClass('hover');
         $('#faq7').addClass('hover');
+        regCLicked = true;
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#faq7").offset().top
         }, 10);
@@ -31,7 +34,17 @@ $(document).ready(function () {
 
     $("#toTop").click(function () {
         $("html, body").animate({scrollTop: 0}, 1500);
+        return false;
     });
+
+
+    $('#faq7').addClass('hover');
+    setTimeout(function () {
+        if(regCLicked){
+            return;
+        }
+        $('#faq7').removeClass('hover');
+    }, 1000);
 });
 
 /* Confetti */
