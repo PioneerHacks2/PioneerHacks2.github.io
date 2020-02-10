@@ -30,7 +30,6 @@
     <link href="assets/css/animations1.css" rel="stylesheet">
     <link href="assets/css/animate.css" rel="stylesheet">
     <link href="assets/images/logo/hat-01.png" rel="prefetch"/>
-
 </head>
 <!--
 Cool stuff that we could add
@@ -96,16 +95,17 @@ animation on scroll: https://codepen.io/simoncodrington/pen/Mwgqqd
             <div style="display: inline">III</div>
         </h1>
 
-        <h1 id="title2Dis" style="font-size: 3vw; line-height: 150%;">Spring, 2020<br>
+        <h1 id="title2Dis" style="font-size: 3vw; line-height: 150%;">March 7th, 2020<br>
             @ Intel Headquarters</h1>
-        <h1 style="font-size:1.5vw; line-height:100%;">Not affiliated or sponsored by Cupertino High School</h1>
+        <h1 id="title3Dis" style="line-height:100%;">Not affiliated or sponsored by Cupertino High School</h1>
         <center>
-            <a class="btn btn-white" href="https://forms.gle/PCBRpkZsboU1TqQ68" id="registerButton"
-               target="_blank">
+
+            <a class="btn btn-white" id="registerButton">
                 <div style="margin: auto;">
                     <b>SIGN UP NOW!</b>
                 </div>
             </a>
+
             <a class="btn btn-white" href="https://www.youtube.com/watch?v=BPXf00HsjJw&feature=youtu.be"
                id="recapButton" target="_blank">
                 <div style="margin: auto;">
@@ -367,6 +367,7 @@ excited to offer all of you a 90% discount on your next domain! Head on over to 
             <div class="row">
                 <div class="col-md-12">
                     <h3 class="section-title">Sponsors</h3>
+
                     <div class="i-am-centered">
 
                         <div class="row">
@@ -434,7 +435,6 @@ excited to offer all of you a 90% discount on your next domain! Head on over to 
 
                         </div>
                     </div>
-
                     <div class="i-am-centered">
                         <div class="row">
 
@@ -511,9 +511,10 @@ excited to offer all of you a 90% discount on your next domain! Head on over to 
                         -->
 
                         </div>
+
+                        <h3 class="section-title">Food Sponsors</h3>
                         <div class="i-am-centered">
                             <div class="row">
-                                <h3 class="section-title">Food Sponsors</h3>
                                 <div class="col-md-2 col-xs-6">
                                     <a class="btn-sponsor partner-box partner-box-6"
                                        onclick="window.open('http://www.bearnibbles.us')"></a>
@@ -544,7 +545,14 @@ excited to offer all of you a 90% discount on your next domain! Head on over to 
                                 </div>
                             </div>
                         </div>
-
+                        <div class="i-am-centered">
+                            <div class="row">
+                                <div class="col-md-2 col-xs-6">
+                                    <a class="btn-sponsor partner-box" style="background: url(assets/images/partner/smashmallow.png) no-repeat center center/contain;"
+                                       onclick="window.open('http://www.bearnibbles.us')"></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -714,6 +722,39 @@ excited to offer all of you a 90% discount on your next domain! Head on over to 
             </div>
         </div>
 
+        <div class="flip-container container" id="faq7"
+             onclick="document.querySelector('#faq7').classList.toggle('hover')">
+            <div class="flipper">
+                <div class="front">
+                    <div class="faq-text">
+                        <h1>Where do I sign up?</h1>
+                    </div>
+                </div>
+                <div class="back"
+                     style="display: flex; align-items: center; justify-content: space-evenly; padding: 0 5vw;">
+                    <a class="btn btn-white" href="https://forms.gle/PCBRpkZsboU1TqQ68" id="studentRegister"
+                       target="_blank">
+                        <div style="margin: auto;">
+                            <b>STUDENTS!</b>
+                        </div>
+                    </a>
+
+                    <a class="btn btn-white" href="http://mentor.pioneerhacks.tech" id="mentorRegister" target="_blank">
+                        <div style="margin: auto;">
+                            <b>MENTOR SIGN UP!</b>
+                        </div>
+                    </a>
+
+                    <a class="btn btn-white" href="https://tinovation.typeform.com/to/vd76gT" id="judgeRegister"
+                       target="_blank">
+                        <div style="margin: auto;">
+                            <b>JUDGE SIGN UP!</b>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
         <!--
         <button class="collapsible">What is PioneerHacks?</button>
         <div class="content">
@@ -770,7 +811,6 @@ excited to offer all of you a 90% discount on your next domain! Head on over to 
 
 
 </section>
-
 <!--
 <section id="photos" class="section photos">
 <div class="container">
@@ -784,7 +824,7 @@ excited to offer all of you a 90% discount on your next domain! Head on over to 
 -->
 
 
-<footer class="site-footer">
+<footer class="site-footer" style="position: relative">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -800,6 +840,12 @@ excited to offer all of you a 90% discount on your next domain! Head on over to 
                     <li><a href="https://pioneerhacks.devpost.com/" target="_blank"><i
                             class="ion-android-globe"></i></a></li>
                 </ul>
+            </div>
+        </div>
+
+        <div class="top-holder">
+            <div class="ion-chevron-up" data-toggle="tooltip" id="toTop" style="width: 75px" title="To Top">
+
             </div>
         </div>
     </div>
