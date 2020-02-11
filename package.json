@@ -1,0 +1,24 @@
+{
+  "name": "pioneerhacks2.github.io",
+  "version": "1.0.0",
+  "description": "Website for PioneerHacks II. Created by Jacob Zhang and Anjan Bharadwaj",
+  "main": "index.html",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-load-plugins": "^2.0.2",
+    "gulp-responsive": "^3.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PioneerHacks2/PioneerHacks2.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PioneerHacks2/PioneerHacks2.github.io/issues"
+  },
+  "homepage": "https://github.com/PioneerHacks2/PioneerHacks2.github.io#readme"
+}
