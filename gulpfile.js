@@ -208,5 +208,100 @@ gulp.task('images', async function () {
                     errorOnEnlargement: false
                 }
             )
+        ).pipe(gulp.dest('dist/images/backgrounds')),
+        gulp.src('assets/images/teamThree/*.{jpg,png,PNG}').pipe(
+            $.responsive(
+                {
+                    '*.{jpg,png,PNG}': [
+                        {
+                            width: 720,
+                            rename: {
+                                extname: '.jpg'
+                            },
+                            flatten: true
+                        }
+                    ]
+                },
+                {
+                    // Global configuration for all images
+                    // The output quality for JPEG, WebP and TIFF output formats
+                    quality: 85,
+                    // Strip all metadata
+                    withMetadata: false,
+                    // Do not emit the error when image is enlarged.
+                    errorOnEnlargement: false
+                }
+            )
+        ).pipe(gulp.dest('dist/images/teamThree')),
+        gulp.src('assets/images/sponsors/*.{jpg,png,PNG}').pipe(
+            $.responsive(
+                {
+                    '*.{jpg,png,PNG}': [
+                        {
+                            width: 720,
+                            rename: {
+                                extname: '.jpg'
+                            },
+                            flatten: true
+                        }
+                    ]
+                },
+                {
+                    // Global configuration for all images
+                    // The output quality for JPEG, WebP and TIFF output formats
+                    quality: 85,
+                    // Strip all metadata
+                    withMetadata: false,
+                    // Do not emit the error when image is enlarged.
+                    errorOnEnlargement: false
+                }
+            )
+        ).pipe(gulp.dest('dist/images/sponsors')),
+        gulp.src('assets/images/partner/*.{jpg,png,PNG}').pipe(
+            $.responsive(
+                {
+                    '*.{jpg,png,PNG}': [
+                        {
+                            width: 720,
+                            rename: {
+                                extname: '.jpg'
+                            },
+                            flatten: true
+                        }
+                    ]
+                },
+                {
+                    // Global configuration for all images
+                    // The output quality for JPEG, WebP and TIFF output formats
+                    quality: 85,
+                    // Strip all metadata
+                    withMetadata: false,
+                    // Do not emit the error when image is enlarged.
+                    errorOnEnlargement: false
+                }
+            )
+        ).pipe(gulp.dest('dist/images/partner')), gulp.src('assets/images/backgrounds/*.{jpg,png,PNG}').pipe(
+            $.responsive(
+                {
+                    '*.{jpg,png,PNG}': [
+                        {
+                            width: 1920,
+                            rename: {
+                                extname: '.jpg'
+                            },
+                            flatten: true
+                        }
+                    ]
+                },
+                {
+                    // Global configuration for all images
+                    // The output quality for JPEG, WebP and TIFF output formats
+                    quality: 85,
+                    // Strip all metadata
+                    withMetadata: false,
+                    // Do not emit the error when image is enlarged.
+                    errorOnEnlargement: false
+                }
+            )
         ).pipe(gulp.dest('dist/images/backgrounds'))])
 });

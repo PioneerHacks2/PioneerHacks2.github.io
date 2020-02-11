@@ -339,7 +339,7 @@ ul li {
 }
 
 .bg-image-1 {
-    background: url(../../dist/images/backgrounds/bg-1-xl.webp) no-repeat center center/cover;
+    background: url(../../dist/images/backgrounds/bg-1-xl.webp), url(../images/backgrounds/bg-1.jpg) no-repeat center center/cover;
 }
 
 .bg-image-1::before {
@@ -347,7 +347,7 @@ ul li {
 }
 
 /*.bg-image-2 {*/
-/*    background: url(../../dist/images/backgrounds/bg-2-xl.webp) no-repeat center bottom/cover;*/
+/*    background: url(../../dist/images/backgrounds/bg-2-xl.webp), url(../images/backgrounds/bg-2.jpg) no-repeat center bottom/cover;*/
 /*}*/
 
 .bg-image-2::before {
@@ -447,7 +447,7 @@ ul li {
     min-height: 100vh;
     position: relative;
     text-align: center;
-    background: url(../../dist/images/backgrounds/bg-stripe-xl.webp) no-repeat center center/cover;
+    background: url(../../dist/images/backgrounds/bg-stripe-xl.webp), url(../../dist/images/backgrounds/bg-stripe.jpg) no-repeat center center/cover;
     display: table;
 }
 
@@ -609,7 +609,7 @@ ul li {
     max-height: 100px;
     max-width: 400px;
     display: block;
-    background: url(../../dist/images/partner/hackbank-lg.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/hackbank-lg.webp), url(../../dist/images/partner/hackbank.jpg) no-repeat center center/contain;
 
 }
 
@@ -620,7 +620,7 @@ ul li {
     width: 22.5vw;
 
     display: block;
-    background: url(../../dist/images/sponsors/vmware-lg.webp) no-repeat center center/contain;
+    background: url(../../dist/images/sponsors/vmware-lg.webp), url(../../dist/images/sponsors/vmware.jpg) no-repeat center center/contain;
 
 }
 
@@ -635,7 +635,7 @@ ul li {
     width: 15vw;
 
     display: block;
-    background: url(../../dist/images/partner/intel-lg.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/intel-lg.webp), url(../../dist/images/partner/intel.jpg) no-repeat center center/contain;
 
 }
 
@@ -672,23 +672,23 @@ ul li {
 }
 
 .partner-box-1 {
-    background: url(../../dist/images/sponsors/linode-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/sponsors/linode-md.webp), url(../../dist/images/sponsors/linode.jpg) no-repeat center center/contain;
 }
 
 .partner-box-2 {
-    background: url(../../dist/images/sponsors/scrumlink-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/sponsors/scrumlink-md.webp), url(../../dist/images/sponsors/scrumlink.jpg) no-repeat center center/contain;
 }
 
 .partner-box-3 {
-    background: url(../../dist/images/sponsors/estimote-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/sponsors/estimote-md.webp), url(../../dist/images/sponsors/estimote.jpg) no-repeat center center/contain;
 }
 
 .partner-box-4 {
-    background: url(../../dist/images/sponsors/ring-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/sponsors/ring-md.webp), url(../../dist/images/sponsors/ring.jpg) no-repeat center center/contain;
 }
 
 .partner-box-5 {
-    background: url(../../dist/images/sponsors/snap-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/sponsors/snap-md.webp), url(../../dist/images/sponsors/snap.jpg) no-repeat center center/contain;
 }
 
 .partner-box-6 {
@@ -696,179 +696,191 @@ ul li {
 }
 
 .partner-box-7 {
-    background: url(../../dist/images/sponsors/sketch-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/sponsors/sketch-md.webp), url(../../dist/images/sponsors/sketch.jpg) no-repeat center center/contain;
 }
 
 .partner-box-8 {
-    background: url(../../dist/images/sponsors/leangap-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/sponsors/leangap-md.webp), url(../../dist/images/sponsors/leangap.jpg) no-repeat center center/contain;
 }
 
 .partner-box-9 {
-    background: url(../../dist/images/sponsors/aops-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/sponsors/aops-md.webp), url(../../dist/images/sponsors/aops.jpg) no-repeat center center/contain;
 }
 
 .partner-box-10 {
-    background: url(../../dist/images/sponsors/bugsee-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/sponsors/bugsee-md.webp), url(../../dist/images/sponsors/bugsee.jpg) no-repeat center center/contain;
 }
 
 .partner-box-11 {
-    background: url(../../dist/images/sponsors/thunkable-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/sponsors/thunkable-md.webp), url(../../dist/images/sponsors/thunkable.jpg) no-repeat center center/contain;
 }
 
 .partner-box-12 {
-    background: url(../../dist/images/sponsors/jetbrains-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/sponsors/jetbrains-md.webp), url(../../dist/images/sponsors/jetbrains.jpg) no-repeat center center/contain;
 }
 
 .partner-box-13 {
-    background: url(../../dist/images/sponsors/hasura-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/sponsors/hasura-md.webp), url(../../dist/images/sponsors/hasura.jpg) no-repeat center center/contain;
 }
 
 .partner-box-14 {
-    background: url(../../dist/images/partner/partner-14-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/partner-14-md.webp), url(../../dist/images/partner/partner-14.jpg) no-repeat center center/contain;
 }
 
 .partner-box-15 {
-    background: url(../../dist/images/partner/partner-15-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/partner-15-md.webp), url(../../dist/images/partner/partner-15.jpg) no-repeat center center/contain;
 }
 
 .partner-box-16 {
-    background: url(../../dist/images/partner/partner-16-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/partner-16-md.webp), url(../../dist/images/partner/partner-16.jpg) no-repeat center center/contain;
 }
 
 .partner-box-17 {
-    background: url(../../dist/images/partner/partner-17-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/partner-17-md.webp), url(../../dist/images/partner/partner-17.jpg) no-repeat center center/contain;
 }
 
 .partner-box-18 {
-    background: url(../../dist/images/partner/partner-18-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/partner-18-md.webp), url(../../dist/images/partner/partner-18.jpg) no-repeat center center/contain;
 }
 
 .partner-box-19 {
-    background: url(../../dist/images/partner/partner-19-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/partner-19-md.webp), url(../../dist/images/partner/partner-19.jpg) no-repeat center center/contain;
 }
 
 .partner-box-20 {
-    background: url(../../dist/images/partner/partner-20-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/partner-20-md.webp), url(../../dist/images/partner/partner-20.jpg) no-repeat center center/contain;
 }
 
 .partner-box-21 {
-    background: url(../../dist/images/partner/partner-21-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/partner-21-md.webp), url(../../dist/images/partner/partner-21.jpg) no-repeat center center/contain;
 }
 
 .partner-box-22 {
-    background: url(../../dist/images/partner/partner-22-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/partner-22-md.webp), url(../../dist/images/partner/partner-22.jpg) no-repeat center center/contain;
 }
 
 .partner-box-23 {
-    background: url(../../dist/images/partner/partner-23-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/partner-23-md.webp), url(../../dist/images/partner/partner-23.jpg) no-repeat center center/contain;
 }
 
 .partner-box-24 {
-    background: url(../../dist/images/partner/partner-24-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/partner-24-md.webp), url(../../dist/images/partner/partner-24.jpg) no-repeat center center/contain;
 }
 
 .partner-box-25 {
-    background: url(../../dist/images/partner/partner-25-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/partner-25-md.webp), url(../../dist/images/partner/partner-25.jpg) no-repeat center center/contain;
 }
 
 .partner-ai-ac {
-    background: url(../../dist/images/partner/ai-academy-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/ai-academy-md.webp), url(../../dist/images/partner/ai-academy.jpg) no-repeat center center/contain;
 }
 
 .partner-sticker-mule {
-    background: url(../../dist/images/partner/sticker-mule-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/sticker-mule-md.webp), url(../../dist/images/partner/sticker-mule.jpg) no-repeat center center/contain;
 }
 
 .partner-hackerearth {
-    background: url(../../dist/images/partner/hackerearth-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/hackerearth-md.webp), url(../../dist/images/partner/hackerearth.jpg) no-repeat center center/contain;
 }
 
 .partner-gogo {
-    background: url(../../dist/images/partner/gogo-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/gogo-md.webp), url(../../dist/images/partner/gogo.jpg) no-repeat center center/contain;
 }
 
 .partner-jobvite {
-    background: url(../../dist/images/partner/Jobvite-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/Jobvite-md.webp), url(../../dist/images/partner/Jobvite.jpg) no-repeat center center/contain;
 }
 
 .partner-donorperfect {
-    background: url(../../dist/images/partner/donorperfect-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/donorperfect-md.webp), url(../../dist/images/partner/donorperfect.jpg) no-repeat center center/contain;
 }
 
 .partner-ca-kitchen {
-    background: url(../../dist/images/partner/ca-pizza-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/ca-pizza-md.webp), url(../../dist/images/partner/ca-pizza.jpg) no-repeat center center/contain;
 }
 
 .partner-steep {
-    background: url(../../dist/images/partner/steep-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/steep-md.webp), url(../../dist/images/partner/steep.jpg) no-repeat center center/contain;
 }
 
 .partner-tech {
-    background: url(../../dist/images/partner/partner-7-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/partner-7-md.webp), url(../../dist/images/partner/partner-7.jpg) no-repeat center center/contain;
 }
 
 .partner-pistachios {
-    background: url(../../dist/images/partner/pistachios-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/pistachios-md.webp), url(../../dist/images/partner/pistachios.jpg) no-repeat center center/contain;
 }
 
 .partner-terra {
-    background: url(../../dist/images/partner/terra-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/terra-md.webp), url(../../dist/images/partner/terra.jpg) no-repeat center center/contain;
 }
 
 .partner-wolfram {
-    background: url(../../dist/images/partner/wolfram-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/wolfram-md.webp), url(../../dist/images/partner/wolfram.jpg) no-repeat center center/contain;
 }
 
 .partner-hasura {
-    background: url(../../dist/images/partner/hasura-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/hasura-md.webp), url(../../dist/images/partner/hasura.jpg) no-repeat center center/contain;
 }
 
 .partner-temboo {
-    background: url(../../dist/images/partner/temboo-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/temboo-md.webp), url(../../dist/images/partner/temboo.jpg) no-repeat center center/contain;
 }
 
 .partner-bugsee {
-    background: url(../../dist/images/partner/bugsee-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/bugsee-md.webp), url(../../dist/images/partner/bugsee.jpg) no-repeat center center/contain;
 }
 
 .partner-aops {
-    background: url(../../dist/images/partner/aops-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/aops-md.webp), url(../../dist/images/partner/aops.jpg) no-repeat center center/contain;
 }
 
 .partner-thunkable {
-    background: url(../../dist/images/partner/thunkable-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/thunkable-md.webp), url(../../dist/images/partner/thunkable.jpg) no-repeat center center/contain;
 }
 
 .partner-quizlet {
-    background: url(../../dist/images/partner/quizlet-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/quizlet-md.webp), url(../../dist/images/partner/quizlet.jpg) no-repeat center center/contain;
 }
 
 .partner-desmos {
-    background: url(../../dist/images/partner/desmos-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/desmos-md.webp), url(../../dist/images/partner/desmos.jpg) no-repeat center center/contain;
 }
 
 .partner-codehs {
-    background: url(../../dist/images/partner/codehs-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/codehs-md.webp), url(../../dist/images/partner/codehs.jpg) no-repeat center center/contain;
 }
 
 .partner-jetbrains {
-    background: url(../../dist/images/partner/jetbrains-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/jetbrains-md.webp), url(../../dist/images/partner/jetbrains.jpg) no-repeat center center/contain;
 }
 
 .partner-wesbos {
-    background: url(../../dist/images/partner/wesbos-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/wesbos-md.webp), url(../../dist/images/partner/wesbos.jpg) no-repeat center center/contain;
 }
 
 .partner-plantronics {
-    background: url(../../dist/images/partner/plantronics-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/plantronics-md.webp), url(../../dist/images/partner/plantronics.jpg) no-repeat center center/contain;
 }
 
 .partner-adobe {
-    background: url(../../dist/images/partner/adobe-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/adobe-md.webp), url(../../dist/images/partner/adobe.jpg) no-repeat center center/contain;
 }
 
 .partner-clf {
-    background: url(../../dist/images/partner/clf-md.webp) no-repeat center center/contain;
+    background: url(../../dist/images/partner/clf-md.webp), url(../../dist/images/partner/clf.jpg) no-repeat center center/contain;
+}
+
+.partner-springlight{
+    background: url(../../dist/images/partner/springlight-md.webp), url(../../dist/images/partner/springlight.jpg) no-repeat center center/contain;
+}
+
+.partner-smashmallow{
+    background: url(../../dist/images/partner/smashmallow-md.webp), url(../../dist/images/partner/smashmallow.jpg) no-repeat center center/contain;
+}
+
+.partner-predikly{
+    background: url(../../dist/images/partner/predikly-md.webp), url(../../dist/images/partner/predikly.jpg) no-repeat center center/contain;
 }
 
 /*
