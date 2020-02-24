@@ -151,12 +151,12 @@
         padding-top: 50px;
     }
 
-    #faq7 > div > div.back {
+    #faq8 > div > div.back {
         flex-direction: column;
         padding: 40px 5vw 35px 5vw !important;
     }
 
-    #faq7 > div > div > a.btn {
+    #faq8 > div > div > a.btn {
         margin: 0;
         font-size: 3.5vw;
         height: 9vw;

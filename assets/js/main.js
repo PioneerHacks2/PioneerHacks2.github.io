@@ -16,11 +16,11 @@ let regCLicked = false;
 
 $(document).ready(function () {
     $("#registerButton").click(function () {
-        $('#faq7').removeClass('hover');
-        $('#faq7').addClass('hover');
+        $('#faq8').removeClass('hover');
+        $('#faq8').addClass('hover');
         regCLicked = true;
         $([document.documentElement, document.body]).animate({
-            scrollTop: $("#faq7").offset().top
+            scrollTop: $("#faq8").offset().top
         }, 10);
     });
     $('[data-toggle="tooltip"]').tooltip();
@@ -38,12 +38,12 @@ $(document).ready(function () {
     });
 
 
-    $('#faq7').addClass('hover');
+    $('#faq8').addClass('hover');
     setTimeout(function () {
         if(regCLicked){
             return;
         }
-        $('#faq7').removeClass('hover');
+        $('#faq8').removeClass('hover');
     }, 1000);
 });
 
