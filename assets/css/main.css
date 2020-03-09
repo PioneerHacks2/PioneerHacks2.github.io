@@ -1081,3 +1081,8 @@ ul li {
 .teamD h2 {
     padding-top: 10px;
 }
+
+#registerButton:hover{
+    transform: unset !important;
+    cursor: not-allowed !important;
+}

@@ -15,7 +15,9 @@ for (var i = 0; i < coll.length; i++) {
 let regCLicked = false;
 
 $(document).ready(function () {
-    $("#registerButton").click(function () {
+    $("#registerButton").click(function (e) {
+        e.preventDefault();
+        return;
         $('#faq8').removeClass('hover');
         $('#faq8').addClass('hover');
         regCLicked = true;
