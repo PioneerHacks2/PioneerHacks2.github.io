@@ -831,6 +831,10 @@ ul li {
     background: url(../../dist/images/partner/bugsee-md.webp) no-repeat center center/contain, url(../../dist/images/partner/bugsee.jpg) no-repeat center center/contain;
 }
 
+.partner-hyperx {
+    background: url(../../dist/images/partner/hyperx-md.webp) no-repeat center center/contain, url(../../dist/images/partner/hyperx.jpg) no-repeat center center/contain;
+}
+
 .partner-aops {
     background: url(../../dist/images/partner/aops-md.webp) no-repeat center center/contain, url(../../dist/images/partner/aops.jpg) no-repeat center center/contain;
 }
